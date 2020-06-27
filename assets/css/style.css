@@ -1,0 +1,286 @@
+/*************************************************************
+Project Name :LMS
+Design by: Sahab Uddin
+Date:10-06-2020
+Project Section:
+	1.Top Bar
+	2.Header
+	3.Slider
+	4.About
+***************************************************************/
+
+/**************************************************************
+			Base CSS Start
+****************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/**************************************************************
+			Base CSS End
+****************************************************************/
+/**************************************************************
+			Common CSS Start
+****************************************************************/
+.second_bg_color{
+	background-color: #56ab2f;
+}
+.second_color{
+	color: #56ab2f;
+}
+.text_d_none{
+	text-decoration: none;
+}
+.list_none{
+	list-style-type: none;
+}
+.first_bg_color{
+	background-color: #fefeff;
+}
+.first_color{
+	color: #fefeff;
+}
+.nav-link{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+/*.nav-link:active{
+	color: #56ab2f !important;
+}*/
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+.nav-link:hover{
+	color: #56ab2f !important;
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.col-12{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.custom_margin{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/**************************************************************
+			Common CSS End
+****************************************************************/
+
+/**************************************************************
+			Top Bar Section CSS Start
+****************************************************************/
+.top_bar{
+	height: 50px;
+	line-height: 50px;
+}
+.top_bar ul {
+	line-height: 50px;
+}
+.top_bar ul li{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+.top_bar ul li:nth-child(1){
+	padding-left: 0px !important;
+	padding-right: 5px;
+	margin-right: 0px !important;
+}
+.top_bar ul li a{
+	color: #fff;
+}
+.top_log span{
+	border-right: 2px solid #fff;
+	height: 30px;
+	margin-top: 10px;
+}
+.top_bar ul li a:hover{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+/**************************************************************
+			Top Bar Section CSS End
+****************************************************************/
+.top_bg{
+	background: rgba(254,255,255,1);
+}
+.nav-link{
+	color: #000;
+}
+/**************************************************************
+			Header Section CSS Start
+****************************************************************/
+.staky{
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1;
+}
+/**************************************************************
+			Header Section CSS End
+****************************************************************/
+/**************************************************************
+			Header Section CSS End
+****************************************************************/
+.course-bg{
+    background: url(../img/about-bg.png);
+    background-size: cover;
+    height: 250px;
+}
+.text-center{
+    color: #fff;
+}
+ul.breadcrum {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrum li {
+  display: inline;
+  font-size: 15px;
+}
+ul.breadcrum li+li:before {
+  padding: 8px;
+  color: #fff;
+  content: "/\00a0";
+}
+ul.breadcrum li a {
+  color: #fff;
+  text-decoration: none;
+}
+ul.breadcrum li a:hover {
+  color: #56ab2f;
+  text-decoration: none;
+}
+/**************************************************************
+			Course Details CSS Start
+****************************************************************/
+.course_details span {
+    border-top: 3px solid #56ab2f;
+}
+/********************2 Part*******************************/
+.custom_header{
+    background: #56ab2f;
+    height: 40px;
+}
+.custom_font{
+    font-size: 16px;
+}
+.custom-table{
+    font-size: 15px;
+}
+/********************2 Part*******************************/
+/**************************************************************
+			Course Details CSS Start
+****************************************************************/
+/**************************************************************
+			About Instractor CSS Start
+****************************************************************/
+.custom_text p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.custom_font{
+    font-size: 25px;
+}
+/**************************************************************
+			About Instractor CSS End
+****************************************************************/
+/**************************************************************
+			Comment CSS Start
+****************************************************************/
+.comment_text h4{
+    text-align: center;
+}
+.default_p{
+    margin-bottom: 0;
+}
+.custom_leave{
+    text-align: center;
+}
+
+/**************************************************************
+			Comment CSS End
+****************************************************************/
+.footer{
+	
+	background-color: #1e1d1d;
+}
+.custom_padding_footer{
+	padding-top: 80px;
+}
+.custom_padding_l{
+	padding: 10px;
+	padding-left: 50px;
+}.custom_padding_t{
+	padding-top: 10px;
+}
+.list{
+	list-style: none;
+	padding-top: 20px;
+}
+.footer_text{
+	padding-top: 25px;
+}
+.footer .list li{
+	color: white;
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.col-6{
+	padding-left: 0px !important; 
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	/*line-height: 100px;*/
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
+.custom_list{
+	padding-top: 0px !important;
+	text-align: right !important;
+}
+.custom_list li {
+	height: 35px !important;
+	width: 35px !important;
+	background-color: transparent;
+	border: 1px solid #56ab2f;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.custom_list li a{
+	text-align: center;
+	padding-right: 0px;
+	font-size: 12px;
+	color: white;
+}
+.c_p{
+	padding-right: 3px;
+}
+.custom_list li a:first-child{
+	
+	padding-right: 10px;
+}
+.custom_list li a:hover{
+	color: #56ab2f;
+}
+/**********************************************************************************************
+					Footer Section CSS End
+***********************************************************************************************/
+.first_bg_color{
+    background-image: url(../img/count.png);
+    background-size: cover;
+    height: 250px;
+}
+/**********************************************************************************************
+					newsletter Section CSS End
+***********************************************************************************************/
